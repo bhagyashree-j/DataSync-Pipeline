@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+airflow_venv/
+venv/
+ENV/
+
+# Airflow
+airflow/logs/
+airflow/*.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+# Generated data
+airflow/data/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
