@@ -23,6 +23,7 @@ A robust ETL solution with automated monitoring and anomaly detection for seamle
 ## Project Structure
 
 DataSync-Pipeline/
+
 ├── airflow/
 
 │   ├── dags/    
