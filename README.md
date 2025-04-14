@@ -23,12 +23,17 @@ A robust ETL solution with automated monitoring and anomaly detection for seamle
 ## Project Structure
 
 DataSync-Pipeline/
-├── airflow/              # Airflow home directory
-│   ├── dags/             # DAG definition files
-│   │   └── datasync_pipeline_dag.py  # Main pipeline DAG
-│   └── data/             # Data storage directory
-├── airflow_venv/         # Virtual environment (not tracked in Git)
-└── README.md             # Project documentation
+├── airflow/
+
+│   ├── dags/    
+
+│   │   └── datasync_pipeline_dag.py 
+
+│   └── data/            
+
+├── airflow_venv/         
+
+└── README.md            
 
 ## Setup and Usage
 
